@@ -9,7 +9,7 @@ export class AuthController {
   @Post('signup')
   signup(@Body() dto: AuthDto) {
     console.log('Cai gi day: ', dto);
-    return this.authService.signup();
+    return this.authService.signup(dto);
   }
 
   @Post('signin')
