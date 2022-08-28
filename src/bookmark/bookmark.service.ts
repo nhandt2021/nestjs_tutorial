@@ -10,6 +10,7 @@ export class BookmarkService {
     return this.prisma.bookmark.findMany({
       where: {
         userId,
+        id: 1,
       },
     });
   }
