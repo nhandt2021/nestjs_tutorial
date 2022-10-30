@@ -14,5 +14,5 @@ export class CreateBookmarkDto {
   link: string;
 
   @IsString()
-  author: string;
+  author?: string;
 }
