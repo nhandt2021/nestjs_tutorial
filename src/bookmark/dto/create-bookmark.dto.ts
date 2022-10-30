@@ -12,4 +12,7 @@ export class CreateBookmarkDto {
   @IsString()
   @IsNotEmpty()
   link: string;
+
+  @IsString()
+  author?: string;
 }
