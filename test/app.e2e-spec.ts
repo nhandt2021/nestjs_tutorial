@@ -243,7 +243,7 @@ describe('App (e2e)', () => {
           .expectStatus(204);
       });
 
-      it('should get empty bookmarks', () => {
+      it('Should get empty bookmarks', () => {
         return pactum
           .spec()
           .get('/bookmarks')
