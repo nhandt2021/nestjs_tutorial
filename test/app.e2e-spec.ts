@@ -215,7 +215,7 @@ describe('App (e2e)', () => {
         description: 'How is it?',
       };
 
-      it('should edit bookmark ', () => {
+      it('Should edit bookmark ', () => {
         return pactum
           .spec()
           .patch('/bookmarks/{id}')
