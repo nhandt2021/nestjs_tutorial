@@ -168,7 +168,7 @@ describe('App (e2e)', () => {
         link: 'https://www.youtube.com/watch?v=GHTA143_b-s&t=3643s',
       };
 
-      it('should create bookmark', () => {
+      it('Should create bookmark', () => {
         return pactum
           .spec()
           .post('/bookmarks')
