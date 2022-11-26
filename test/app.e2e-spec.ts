@@ -133,7 +133,7 @@ describe('App (e2e)', () => {
         email: 'nhandt@yopmail.com',
       };
 
-      it('should edit user', () => {
+      it('Should edit user', () => {
         return pactum
           .spec()
           .patch('/users')
