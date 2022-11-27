@@ -116,7 +116,7 @@ describe('App (e2e)', () => {
 
   describe('User', () => {
     describe('Get me', () => {
-      it('should get current user', () => {
+      it('Should get current user', () => {
         return pactum
           .spec()
           .get('/users/me')
