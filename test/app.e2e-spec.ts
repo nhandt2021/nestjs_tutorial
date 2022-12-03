@@ -99,7 +99,7 @@ describe('App (e2e)', () => {
           .expectStatus(400);
       });
 
-      it('should throw if no body provided', () => {
+      it('Should throw if no body provided', () => {
         return pactum.spec().post('/auth/signin').expectStatus(400);
       });
 
