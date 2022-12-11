@@ -55,7 +55,7 @@ describe('App (e2e)', () => {
           .expectStatus(400);
       });
 
-      it('should throw if password is empty', () => {
+      it('Should throw if password is empty', () => {
         return pactum
           .spec()
           .post('/auth/signup')
@@ -65,7 +65,7 @@ describe('App (e2e)', () => {
           .expectStatus(400);
       });
 
-      it('should throw if no body provided', () => {
+      it('Should throw if no body provided', () => {
         return pactum.spec().post('/auth/signup').expectStatus(400);
       });
 
