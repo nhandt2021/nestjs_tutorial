@@ -79,7 +79,7 @@ describe('App (e2e)', () => {
     });
 
     describe('Signin', () => {
-      it('should throw if email is empty', () => {
+      it('Should throw if email is empty', () => {
         return pactum
           .spec()
           .post('/auth/signin')
