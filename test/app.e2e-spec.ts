@@ -195,7 +195,7 @@ describe('App (e2e)', () => {
     });
 
     describe('Get bookmark by id', () => {
-      it('should get bookmark by id', () => {
+      it('Should get bookmark by id', () => {
         return pactum
           .spec()
           .get('/bookmarks/{id}')
