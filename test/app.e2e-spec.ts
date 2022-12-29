@@ -232,7 +232,7 @@ describe('App (e2e)', () => {
     });
 
     describe('Delete the bookmark by id', () => {
-      it('should delete bookmark', () => {
+      it('Should delete bookmark', () => {
         return pactum
           .spec()
           .delete('/bookmarks/{id}')
