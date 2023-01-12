@@ -44,7 +44,7 @@ describe('App (e2e)', () => {
       password: '123',
     };
 
-    describe('Signup', () => {
+    describe('Signup: ', () => {
       it('Should throw if email is empty', () => {
         return pactum
           .spec()
