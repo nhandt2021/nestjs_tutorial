@@ -69,7 +69,7 @@ describe('App (e2e)', () => {
         return pactum.spec().post('/auth/signup').expectStatus(400);
       });
 
-      it('Should signup', () => {
+      it('Should signup: ', () => {
         return pactum
           .spec()
           .post('/auth/signup')
