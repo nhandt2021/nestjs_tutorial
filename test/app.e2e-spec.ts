@@ -44,7 +44,7 @@ describe('App (e2e)', () => {
       password: '123',
     };
 
-    describe('Signup', () => {
+    describe('Signup: ', () => {
       it('Should throw if email is empty', () => {
         return pactum
           .spec()
@@ -69,7 +69,7 @@ describe('App (e2e)', () => {
         return pactum.spec().post('/auth/signup').expectStatus(400);
       });
 
-      it('Should signup', () => {
+      it('Should signup: ', () => {
         return pactum
           .spec()
           .post('/auth/signup')
